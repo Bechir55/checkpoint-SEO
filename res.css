@@ -1,0 +1,117 @@
+#background{
+    background-image:url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 300px;
+}
+
+#img{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 80px;
+    margin-top: -100px;
+}
+
+.img {
+    width: 200px;
+    margin:auto;
+  }
+
+.social{
+    margin-left: 40px;
+}
+
+.hola{
+    padding:2px;   
+    color:rgb(41, 106, 212)
+}
+
+.hola:hover{
+    text-shadow: 0px 6px 8px black;
+    color: grey
+}
+
+#esmi{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom: -1px;
+}
+
+#esmi:hover{
+    text-decoration: underline;
+    color: black
+}
+
+#occupation{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(100, 100, 100) ;
+    font-size: 18px;
+}
+
+.zin{
+    text-align: center;
+    color: rgb(65, 158, 245);   
+}
+
+.ahla{
+    position:relative;
+    color: black;   
+}
+
+.aaa{
+   color: rgb(65, 158, 245);
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 24px;
+   visibility: hidden;
+   padding: 10px;   
+   margin-left: -130px;
+
+  
+}
+
+.ahla:hover{   
+    transition: transform 0.4s ease-out;
+    transform: rotateZ(360deg);
+    color:  rgb(65, 158, 245);
+}
+
+.hamma:hover .aaa{
+    transition: transform 0.4s ease-out;
+    transform:translateX(100px) ;
+    visibility:visible;
+} /* aman EL ECRITURE MEHECH CENTRE TAHT EL KTIBA TRASATLI NAAMEL BEL MARGIN LEFT NEGATIVE
+    W APAR CA HATA MEL LES ICONES MCH FI BLASETHOM */
+
+
+.chbik{
+    background-color: rgb(41, 106, 212);
+    padding: 200px;
+    border-radius:2%;
+    box-shadow: 2px 2px lightgrey;
+    margin-right:30px;
+    margin-bottom:30px;
+    cursor: pointer;
+}
+
+
+
+.non{
+    background-color: aqua;
+    padding: 200px;
+    border-radius:2%;
+    box-shadow: 2px 2px lightgrey;
+    margin-right:30px;
+    margin-bottom:30px;
+    cursor: pointer;
+}
+
+.a{
+    position: relative;
+    margin-left: 50px;
+
+}
